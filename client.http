@@ -1,0 +1,12 @@
+POST http://localhost:3000/api/reservation HTTP/1.1
+content-type: application/json
+
+{
+    "nome": "lucas",
+    "sala": "7"
+}
+
+###
+
+GET http://localhost:3000/api/reservations HTTP/1.1
+content-type: application/json
